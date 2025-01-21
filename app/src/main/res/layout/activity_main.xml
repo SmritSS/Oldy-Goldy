@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#73ccd8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Product Image Carousel -->
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Caption -->
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginBottom="8dp"
+                android:background="#08808e"
+                android:text="Caption"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:background="#08808e"
+                android:padding="16dp"
+                android:text="Price"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_marginBottom="16dp"
+                android:background="#08808e"
+                android:padding="16dp"
+                android:text="Description"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <!-- About Seller Section -->
+            <LinearLayout
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <!-- Seller Image -->
+
+                <!-- Seller Info -->
+                <ImageView
+                    android:id="@+id/sellerImage"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/circle_background"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sellerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="#6B4F4F"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/sellerClass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Class"
+                        android:textColor="#6B4F4F"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/sellerContact"
+                        android:layout_width="79dp"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:textColor="#6B4F4F"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:background="#000080"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Contact Button -->
+                <ImageView
+                    android:id="@+id/contactButton"
+                    android:layout_width="63dp"
+                    android:layout_height="64dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/circle_background"
+                    android:src="@drawable/ic_call" />
+
+                <!-- Location Button -->
+                <ImageView
+                    android:id="@+id/locationButton"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_background"
+                    android:src="@drawable/ic_location" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
