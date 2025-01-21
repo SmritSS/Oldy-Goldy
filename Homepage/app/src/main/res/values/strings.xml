@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Homepage</string>
+    <string name="OG">OG</string>
+    <string name="search_in_oldy_goldy_com">Search in oldy-goldy.com</string>
+    <string name="Shri_Shanta_Niveshnam">Shri Shanta Niveshnam</string>
+    <string name="Trunk">Trunk</string>
+    <string name="Book">Book</string>
+    <string name="Cycle">Cycle</string>
+    <string name="Fan">Fan</string>
+    <string name="sugg">Suggestions</string>
+    <string name="caption">Name/Caption</string>
+    <string name="descrip">[Description]</string>
+    <string name="loc">Location</string>
+    <string name="namecap">Name/Caption</string>
+    <string name="description">[Description]</string>
+    <string name="locat">Location</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="post">Post</string>
+    <string name="categories">Categories</string>
+    <string name="profilee">Profile</string>
+    <string name="profiles">Profile</string>
+    <string name="pro">Profile</string>
+    <string name="others">Others</string>
+    <string name="suggestions">Suggestions</string>
+</resources>
