@@ -7,7 +7,14 @@
 
     <style name="Theme.ProfilePage" parent="Base.Theme.ProfilePage" />
     
-    <style name="notificationswitch" parent="Theme.AppCompat">
-        <item name="colorControlActivated"></item>
+    <style name="notification_switch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/notification</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
+    </style>
+    <style name="night_mode" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/night_mode</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+        <item name="android:colorForeground">#99FFFFFF</item>
     </style>
 </resources>

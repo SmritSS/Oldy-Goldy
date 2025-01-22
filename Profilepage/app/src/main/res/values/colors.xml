@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="notification">#2E1503</color>
+    <color name="night_mode">#620580</color>
+    <color name="account">#334A05</color>
 </resources>
