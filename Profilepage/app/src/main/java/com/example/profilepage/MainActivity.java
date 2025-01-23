@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -24,12 +25,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TextView btn=findViewById(R.id.textView5);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,SettingsActivity.class));
-            }
+        TextView textView = findViewById(R.id.textView5);
+        textView.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,SettingsActivity.class);
+            startActivity(intent);
+            Toast.makeText(MainActivity.this, "settings", Toast.LENGTH_LONG).show();
         });
     }
 }

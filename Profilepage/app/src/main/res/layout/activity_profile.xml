@@ -86,6 +86,7 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginEnd="32dp"
                     android:background="@drawable/background"
+                    android:baselineAligned="false"
                     android:elevation="4dp"
                     android:orientation="horizontal"
                     app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
@@ -115,7 +116,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
                             android:layout_marginTop="-20dp"
-                            android:text="Settings"
+                            android:text="@string/settings"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="14sp"
@@ -145,7 +146,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
                             android:layout_marginTop="-20dp"
-                            android:text="Account"
+                            android:text="@string/Account"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="14sp"
@@ -175,7 +176,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
                             android:layout_marginTop="-20dp"
-                            android:text="Language"
+                            android:text="@string/language"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="14sp"
@@ -205,6 +206,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:baselineAligned="false"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -223,6 +225,7 @@
                                 android:id="@+id/imageView5"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -235,7 +238,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Buy Product"
+                            android:text="@string/buy_product"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
@@ -258,6 +261,7 @@
                                 android:id="@+id/imageView6"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -270,7 +274,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Chat"
+                            android:text="@string/chat"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
@@ -293,6 +297,7 @@
                                 android:id="@+id/imageView7"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -305,7 +310,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="My Orders"
+                            android:text="@string/my_orders"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
@@ -317,6 +322,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="24dp"
+                    android:baselineAligned="false"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -335,6 +341,7 @@
                                 android:id="@+id/imageView8"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -347,7 +354,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Sell Product"
+                            android:text="@string/sell_product"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
@@ -370,6 +377,7 @@
                                 android:id="@+id/imageView9"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -382,7 +390,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="View Cart"
+                            android:text="@string/view_cart"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
@@ -405,6 +413,7 @@
                                 android:id="@+id/imageView10"
                                 android:layout_width="58dp"
                                 android:layout_height="50dp"
+                                android:contentDescription="@string/todo"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -417,7 +426,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Help"
+                            android:text="@string/help"
                             android:textAlignment="center"
                             android:textColor="#2e3d6d"
                             android:textStyle="bold" />
