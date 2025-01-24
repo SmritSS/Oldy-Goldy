@@ -19,29 +19,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        // Get references to the buttons
+        ImageView contactButton = findViewById(R.id.contactButton);
+        ImageView locationButton = findViewById(R.id.locationButton);
+
+        // Set onClick listeners
+        contactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Code to execute when the contact button is clicked
+                Toast.makeText(MainActivity.this, "Contact Button Clicked", Toast.LENGTH_SHORT).show();
+            }
         });
-        ViewPager viewPager = findViewById(R.id.viewPager);
 
-        // Add example images
-        List<Integer> imageList = new ArrayList<>();
-        imageList.add(R.drawable.trunk);
-        imageList.add(R.drawable.trunk2);
-
-        // Set up the adapter
-        ImageAdapter adapter = new ImageAdapter(this, imageList);
-        viewPager.setAdapter(adapter);
+        locationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Code to execute when the location button is clicked
+                Toast.makeText(MainActivity.this, "Location Button Clicked", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
-    profile.setOnClickListener(new ViewOnClickListener()){
-        @Override
-                public void onClick(View v){
-                    startActivity(new Intent(MainActivity.this, MainActivity.this));
-        }
-    }
-
 }

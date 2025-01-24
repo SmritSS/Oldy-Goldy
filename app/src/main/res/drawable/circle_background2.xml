@@ -1,4 +1,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#427ba8" /> <!-- Brownish color -->
+    <solid android:color="#a3c9ed" /> <!-- Brownish color -->
     <corners android:radius="32dp" />
 </shape>

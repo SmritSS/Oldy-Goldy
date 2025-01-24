@@ -7,12 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.5"
+        android:contentDescription="Background Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#73ccd8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,62 +35,64 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Product Image Carousel -->
+
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPager"
-                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:background="#FFFFFF" />
 
-            <!-- Caption -->
+
             <TextView
                 android:id="@+id/caption"
                 android:layout_width="match_parent"
-                android:layout_height="47dp"
-                android:layout_marginBottom="8dp"
-                android:background="#08808e"
+                android:layout_height="60dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/circle_background"
                 android:text="Caption"
+                android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
+                android:padding="16dp"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Price -->
+
             <TextView
                 android:id="@+id/price"
                 android:layout_width="match_parent"
-                android:layout_height="67dp"
-                android:background="#08808e"
+                android:layout_height="60dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/circle_background"
                 android:padding="16dp"
                 android:text="Price"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp" />
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp" />
 
-            <!-- Description -->
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="147dp"
                 android:layout_marginBottom="16dp"
-                android:background="#08808e"
+                android:background="@drawable/circle_background"
                 android:padding="16dp"
                 android:text="Description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="18sp" />
 
-            <!-- About Seller Section -->
+
+
             <LinearLayout
                 android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="105dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/circle_background2"
                 android:orientation="horizontal"
                 android:padding="16dp">
 
-                <!-- Seller Image -->
 
-                <!-- Seller Info -->
                 <ImageView
                     android:id="@+id/sellerImage"
                     android:layout_width="64dp"
@@ -88,6 +101,7 @@
                     android:background="@drawable/circle_background"
                     android:scaleType="centerCrop"
                     android:src="@drawable/ic_person" />
+
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -99,7 +113,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Name"
-                        android:textColor="#6B4F4F"
+                        android:textColor="@color/black"
                         android:textSize="16sp" />
 
                     <TextView
@@ -107,51 +121,53 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Class"
-                        android:textColor="#6B4F4F"
-                        android:textSize="14sp" />
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/sellerContact"
                         android:layout_width="79dp"
                         android:layout_height="wrap_content"
                         android:text="Contact"
-                        android:textColor="#6B4F4F"
-                        android:textSize="14sp" />
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
             </LinearLayout>
 
-            <!-- Action Buttons -->
-            <LinearLayout
-                android:background="#000080"
-                android:layout_width="match_parent"
-                android:layout_height="82dp"
-                android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <!-- Contact Button -->
-                <ImageView
-                    android:id="@+id/contactButton"
-                    android:layout_width="63dp"
-                    android:layout_height="64dp"
-                    android:layout_marginEnd="16dp"
-                    android:background="@drawable/circle_background"
-                    android:src="@drawable/ic_call" />
-
-                <!-- Location Button -->
-                <ImageView
-                    android:id="@+id/locationButton"
-                    android:layout_width="64dp"
-                    android:layout_height="64dp"
-                    android:background="@drawable/circle_background"
-                    android:src="@drawable/ic_location" />
-
-            </LinearLayout>
 
         </LinearLayout>
+
     </ScrollView>
 
+    <LinearLayout
+        android:id="@+id/bottomButtons"
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/contactButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_call" />
+
+        <ImageView
+            android:id="@+id/locationButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_location" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
