@@ -43,4 +43,8 @@
     <string name="email">Email</string>
     <string name="phone_no">Phone No</string>
     <string name="address">Address</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
 </resources>
