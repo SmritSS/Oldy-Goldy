@@ -195,7 +195,7 @@
                         android:layout_centerVertical="true"
                         android:layout_toEndOf="@id/imageView14"
                         android:letterSpacing="0.05"
-                        android:text="@string/privacy_and_security"
+                        android:text="@string/Password"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         android:textStyle="bold"

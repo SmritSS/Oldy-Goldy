@@ -7,7 +7,6 @@
     <string name="notifications">Notifications</string>
     <string name="night_mode">Night Mode</string>
     <string name="account">Account</string>
-    <string name="privacy_and_security">Privacy and Security</string>
     <string name="help_and_support">Help and Support</string>
     <string name="invite_a_friend">Invite a friend</string>
     <string name="report">Report</string>
@@ -37,4 +36,6 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Password">Password</string>
+    <string name="username">username</string>
 </resources>
