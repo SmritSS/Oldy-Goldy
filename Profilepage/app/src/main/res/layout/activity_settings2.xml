@@ -83,6 +83,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:layout_marginEnd="122dp"
+                        android:layout_toStartOf="@+id/switch1"
                         android:layout_toEndOf="@id/imageView11"
                         android:letterSpacing="0.05"
                         android:text="@string/notifications"
@@ -91,13 +93,14 @@
                         android:textStyle="bold" />
 
                     <Switch
+                        android:id="@+id/switch1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:switchMinWidth="50dp"
-                        tools:ignore="UseSwitchCompatOrMaterialXml"
-                        android:theme="@style/notification_switch"/>
+                        android:theme="@style/notification_switch"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                 </RelativeLayout>
 
@@ -118,6 +121,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:layout_marginEnd="136dp"
+                        android:layout_toStartOf="@+id/switch2"
                         android:layout_toEndOf="@id/imageView12"
                         android:letterSpacing="0.05"
                         android:text="@string/night_mode"
@@ -126,13 +131,14 @@
                         android:textStyle="bold" />
 
                     <Switch
+                        android:id="@+id/switch2"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:switchMinWidth="50dp"
-                        tools:ignore="UseSwitchCompatOrMaterialXml"
-                        android:theme="@style/night_mode"/>
+                        android:theme="@style/night_mode"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                 </RelativeLayout>
 
@@ -142,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="20dp"
                 android:background="@drawable/background"
                 android:orientation="vertical"
