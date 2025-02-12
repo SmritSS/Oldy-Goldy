@@ -69,7 +69,7 @@
                         android:id="@+id/textView4"
                         android:layout_width="172dp"
                         android:layout_height="38dp"
-                        android:text="Navya Goyal"
+                        android:text="@string/full_name"
                         android:textColor="#fedd06"
                         android:textSize="28sp"
                         android:textStyle="bold"

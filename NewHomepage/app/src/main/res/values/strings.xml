@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">New Homepage</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="OG">OG</string>
+    <string name="Shri_Shanta_Niveshnam">Shri_Shanta_Niveshnam</string>
+    <string name="search_in_oldy_goldy_com">search_in_oldy_goldy_com</string>
+    <string name="others">others</string>
+    <string name="Book">Book</string>
+    <string name="Cycle">Cycle</string>
+    <string name="Trunk">Trunk</string>
+    <string name="Fan">Fan</string>
+    <string name="caption">caption\n</string>
+    <string name="descrip">descrip</string>
+    <string name="loc">loc</string>
+    <string name="description">description</string>
+    <string name="Advertisement">Advertisement</string>
+    <string name="home">Home</string>
+    <string name="List">List</string>
+    <string name="Post">Post</string>
+    <string name="Settings">Settings</string>
+    <string name="Profile">Profile</string>
+</resources>
