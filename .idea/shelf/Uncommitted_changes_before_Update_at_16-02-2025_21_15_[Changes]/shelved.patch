@@ -1,0 +1,408 @@
+Index: Myfinalloginpage/.idea/modules.xml
+===================================================================
+diff --git a/Myfinalloginpage/.idea/modules.xml b/Myfinalloginpage/.idea/modules.xml
+deleted file mode 100644
+--- a/Myfinalloginpage/.idea/modules.xml	(revision 8210b56d74bfcc7299ab6d28f4e2559225cbcd91)
++++ /dev/null	(revision 8210b56d74bfcc7299ab6d28f4e2559225cbcd91)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Myfinalloginpage.iml" filepath="$PROJECT_DIR$/.idea/Myfinalloginpage.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: gradle/libs.versions.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[versions]\r\nagp = \"8.7.3\"\r\njunit = \"4.13.2\"\r\njunitVersion = \"1.2.1\"\r\nespressoCore = \"3.6.1\"\r\nappcompat = \"1.7.0\"\r\nmaterial = \"1.12.0\"\r\nactivity = \"1.9.3\"\r\nconstraintlayout = \"2.2.0\"\r\n\r\n[libraries]\r\njunit = { group = \"junit\", name = \"junit\", version.ref = \"junit\" }\r\next-junit = { group = \"androidx.test.ext\", name = \"junit\", version.ref = \"junitVersion\" }\r\nespresso-core = { group = \"androidx.test.espresso\", name = \"espresso-core\", version.ref = \"espressoCore\" }\r\nappcompat = { group = \"androidx.appcompat\", name = \"appcompat\", version.ref = \"appcompat\" }\r\nmaterial = { group = \"com.google.android.material\", name = \"material\", version.ref = \"material\" }\r\nactivity = { group = \"androidx.activity\", name = \"activity\", version.ref = \"activity\" }\r\nconstraintlayout = { group = \"androidx.constraintlayout\", name = \"constraintlayout\", version.ref = \"constraintlayout\" }\r\n\r\n[plugins]\r\nandroid-application = { id = \"com.android.application\", version.ref = \"agp\" }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradle/libs.versions.toml b/gradle/libs.versions.toml
+--- a/gradle/libs.versions.toml	(revision 8210b56d74bfcc7299ab6d28f4e2559225cbcd91)
++++ b/gradle/libs.versions.toml	(date 1739450365723)
+@@ -1,5 +1,5 @@
+ [versions]
+-agp = "8.7.3"
++agp = "8.8.0"
+ junit = "4.13.2"
+ junitVersion = "1.2.1"
+ espressoCore = "3.6.1"
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Tue Jan 07 20:33:30 IST 2025\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-8.9-bin.zip\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+--- a/gradle/wrapper/gradle-wrapper.properties	(revision 8210b56d74bfcc7299ab6d28f4e2559225cbcd91)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1739450365733)
+@@ -1,6 +1,6 @@
+ #Tue Jan 07 20:33:30 IST 2025
+ distributionBase=GRADLE_USER_HOME
+ distributionPath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-8.10.2-bin.zip
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+Index: Myfinalloginpage/.idea/caches/deviceStreaming.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DeviceStreaming\">\r\n    <option name=\"deviceSelectionList\">\r\n      <list>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"27\" />\r\n          <option name=\"brand\" value=\"DOCOMO\" />\r\n          <option name=\"codename\" value=\"F01L\" />\r\n          <option name=\"id\" value=\"F01L\" />\r\n          <option name=\"manufacturer\" value=\"FUJITSU\" />\r\n          <option name=\"name\" value=\"F-01L\" />\r\n          <option name=\"screenDensity\" value=\"360\" />\r\n          <option name=\"screenX\" value=\"720\" />\r\n          <option name=\"screenY\" value=\"1280\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"OPPO\" />\r\n          <option name=\"codename\" value=\"OP573DL1\" />\r\n          <option name=\"id\" value=\"OP573DL1\" />\r\n          <option name=\"manufacturer\" value=\"OPPO\" />\r\n          <option name=\"name\" value=\"CPH2557\" />\r\n          <option name=\"screenDensity\" value=\"480\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"28\" />\r\n          <option name=\"brand\" value=\"DOCOMO\" />\r\n          <option name=\"codename\" value=\"SH-01L\" />\r\n          <option name=\"id\" value=\"SH-01L\" />\r\n          <option name=\"manufacturer\" value=\"SHARP\" />\r\n          <option name=\"name\" value=\"AQUOS sense2 SH-01L\" />\r\n          <option name=\"screenDensity\" value=\"480\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2160\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"Lenovo\" />\r\n          <option name=\"codename\" value=\"TB370FU\" />\r\n          <option name=\"id\" value=\"TB370FU\" />\r\n          <option name=\"manufacturer\" value=\"Lenovo\" />\r\n          <option name=\"name\" value=\"Tab P12\" />\r\n          <option name=\"screenDensity\" value=\"340\" />\r\n          <option name=\"screenX\" value=\"1840\" />\r\n          <option name=\"screenY\" value=\"2944\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"31\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"a51\" />\r\n          <option name=\"id\" value=\"a51\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy A51\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"akita\" />\r\n          <option name=\"id\" value=\"akita\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 8a\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"b0q\" />\r\n          <option name=\"id\" value=\"b0q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy S22 Ultra\" />\r\n          <option name=\"screenDensity\" value=\"600\" />\r\n          <option name=\"screenX\" value=\"1440\" />\r\n          <option name=\"screenY\" value=\"3088\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"32\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"bluejay\" />\r\n          <option name=\"id\" value=\"bluejay\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 6a\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"caiman\" />\r\n          <option name=\"id\" value=\"caiman\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 9 Pro\" />\r\n          <option name=\"screenDensity\" value=\"360\" />\r\n          <option name=\"screenX\" value=\"960\" />\r\n          <option name=\"screenY\" value=\"2142\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"comet\" />\r\n          <option name=\"id\" value=\"comet\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 9 Pro Fold\" />\r\n          <option name=\"screenDensity\" value=\"390\" />\r\n          <option name=\"screenX\" value=\"2076\" />\r\n          <option name=\"screenY\" value=\"2152\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"29\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"crownqlteue\" />\r\n          <option name=\"id\" value=\"crownqlteue\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy Note9\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"2220\" />\r\n          <option name=\"screenY\" value=\"1080\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"dm3q\" />\r\n          <option name=\"id\" value=\"dm3q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy S23 Ultra\" />\r\n          <option name=\"screenDensity\" value=\"600\" />\r\n          <option name=\"screenX\" value=\"1440\" />\r\n          <option name=\"screenY\" value=\"3088\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"e1q\" />\r\n          <option name=\"id\" value=\"e1q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy S24\" />\r\n          <option name=\"screenDensity\" value=\"480\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2340\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"e3q\" />\r\n          <option name=\"id\" value=\"e3q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy S24 Ultra\" />\r\n          <option name=\"screenDensity\" value=\"450\" />\r\n          <option name=\"screenX\" value=\"1440\" />\r\n          <option name=\"screenY\" value=\"3120\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"eos\" />\r\n          <option name=\"id\" value=\"eos\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Eos\" />\r\n          <option name=\"screenDensity\" value=\"320\" />\r\n          <option name=\"screenX\" value=\"384\" />\r\n          <option name=\"screenY\" value=\"384\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"felix\" />\r\n          <option name=\"id\" value=\"felix\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel Fold\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"2208\" />\r\n          <option name=\"screenY\" value=\"1840\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"felix\" />\r\n          <option name=\"id\" value=\"felix\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel Fold\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"2208\" />\r\n          <option name=\"screenY\" value=\"1840\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"felix_camera\" />\r\n          <option name=\"id\" value=\"felix_camera\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel Fold (Camera-enabled)\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"2208\" />\r\n          <option name=\"screenY\" value=\"1840\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"motorola\" />\r\n          <option name=\"codename\" value=\"fogona\" />\r\n          <option name=\"id\" value=\"fogona\" />\r\n          <option name=\"manufacturer\" value=\"Motorola\" />\r\n          <option name=\"name\" value=\"moto g play - 2024\" />\r\n          <option name=\"screenDensity\" value=\"280\" />\r\n          <option name=\"screenX\" value=\"720\" />\r\n          <option name=\"screenY\" value=\"1600\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"gts8uwifi\" />\r\n          <option name=\"id\" value=\"gts8uwifi\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy Tab S8 Ultra\" />\r\n          <option name=\"screenDensity\" value=\"320\" />\r\n          <option name=\"screenX\" value=\"1848\" />\r\n          <option name=\"screenY\" value=\"2960\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"husky\" />\r\n          <option name=\"id\" value=\"husky\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 8 Pro\" />\r\n          <option name=\"screenDensity\" value=\"390\" />\r\n          <option name=\"screenX\" value=\"1008\" />\r\n          <option name=\"screenY\" value=\"2244\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"30\" />\r\n          <option name=\"brand\" value=\"motorola\" />\r\n          <option name=\"codename\" value=\"java\" />\r\n          <option name=\"id\" value=\"java\" />\r\n          <option name=\"manufacturer\" value=\"Motorola\" />\r\n          <option name=\"name\" value=\"G20\" />\r\n          <option name=\"screenDensity\" value=\"280\" />\r\n          <option name=\"screenX\" value=\"720\" />\r\n          <option name=\"screenY\" value=\"1600\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"komodo\" />\r\n          <option name=\"id\" value=\"komodo\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 9 Pro XL\" />\r\n          <option name=\"screenDensity\" value=\"360\" />\r\n          <option name=\"screenX\" value=\"1008\" />\r\n          <option name=\"screenY\" value=\"2244\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"lynx\" />\r\n          <option name=\"id\" value=\"lynx\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 7a\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"motorola\" />\r\n          <option name=\"codename\" value=\"maui\" />\r\n          <option name=\"id\" value=\"maui\" />\r\n          <option name=\"manufacturer\" value=\"Motorola\" />\r\n          <option name=\"name\" value=\"moto g play - 2023\" />\r\n          <option name=\"screenDensity\" value=\"280\" />\r\n          <option name=\"screenX\" value=\"720\" />\r\n          <option name=\"screenY\" value=\"1600\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"31\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"oriole\" />\r\n          <option name=\"id\" value=\"oriole\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 6\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"panther\" />\r\n          <option name=\"id\" value=\"panther\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 7\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"q5q\" />\r\n          <option name=\"id\" value=\"q5q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy Z Fold5\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1812\" />\r\n          <option name=\"screenY\" value=\"2176\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"samsung\" />\r\n          <option name=\"codename\" value=\"q6q\" />\r\n          <option name=\"id\" value=\"q6q\" />\r\n          <option name=\"manufacturer\" value=\"Samsung\" />\r\n          <option name=\"name\" value=\"Galaxy Z Fold6\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1856\" />\r\n          <option name=\"screenY\" value=\"2160\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"30\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"r11\" />\r\n          <option name=\"id\" value=\"r11\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel Watch\" />\r\n          <option name=\"screenDensity\" value=\"320\" />\r\n          <option name=\"screenX\" value=\"384\" />\r\n          <option name=\"screenY\" value=\"384\" />\r\n          <option name=\"type\" value=\"WEAR_OS\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"30\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"redfin\" />\r\n          <option name=\"id\" value=\"redfin\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 5\" />\r\n          <option name=\"screenDensity\" value=\"440\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2340\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"shiba\" />\r\n          <option name=\"id\" value=\"shiba\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 8\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2400\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"33\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"tangorpro\" />\r\n          <option name=\"id\" value=\"tangorpro\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel Tablet\" />\r\n          <option name=\"screenDensity\" value=\"320\" />\r\n          <option name=\"screenX\" value=\"1600\" />\r\n          <option name=\"screenY\" value=\"2560\" />\r\n        </PersistentDeviceSelectionData>\r\n        <PersistentDeviceSelectionData>\r\n          <option name=\"api\" value=\"34\" />\r\n          <option name=\"brand\" value=\"google\" />\r\n          <option name=\"codename\" value=\"tokay\" />\r\n          <option name=\"id\" value=\"tokay\" />\r\n          <option name=\"manufacturer\" value=\"Google\" />\r\n          <option name=\"name\" value=\"Pixel 9\" />\r\n          <option name=\"screenDensity\" value=\"420\" />\r\n          <option name=\"screenX\" value=\"1080\" />\r\n          <option name=\"screenY\" value=\"2424\" />\r\n        </PersistentDeviceSelectionData>\r\n      </list>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Myfinalloginpage/.idea/caches/deviceStreaming.xml b/Myfinalloginpage/.idea/caches/deviceStreaming.xml
+--- a/Myfinalloginpage/.idea/caches/deviceStreaming.xml	(revision 8210b56d74bfcc7299ab6d28f4e2559225cbcd91)
++++ b/Myfinalloginpage/.idea/caches/deviceStreaming.xml	(date 1739451038174)
+@@ -8,6 +8,7 @@
+           <option name="brand" value="DOCOMO" />
+           <option name="codename" value="F01L" />
+           <option name="id" value="F01L" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="FUJITSU" />
+           <option name="name" value="F-01L" />
+           <option name="screenDensity" value="360" />
+@@ -19,6 +20,7 @@
+           <option name="brand" value="OPPO" />
+           <option name="codename" value="OP573DL1" />
+           <option name="id" value="OP573DL1" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="OPPO" />
+           <option name="name" value="CPH2557" />
+           <option name="screenDensity" value="480" />
+@@ -30,6 +32,7 @@
+           <option name="brand" value="DOCOMO" />
+           <option name="codename" value="SH-01L" />
+           <option name="id" value="SH-01L" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="SHARP" />
+           <option name="name" value="AQUOS sense2 SH-01L" />
+           <option name="screenDensity" value="480" />
+@@ -40,18 +43,33 @@
+           <option name="api" value="34" />
+           <option name="brand" value="Lenovo" />
+           <option name="codename" value="TB370FU" />
++          <option name="formFactor" value="Tablet" />
+           <option name="id" value="TB370FU" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Lenovo" />
+           <option name="name" value="Tab P12" />
+           <option name="screenDensity" value="340" />
+           <option name="screenX" value="1840" />
+           <option name="screenY" value="2944" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
++          <option name="codename" value="a15" />
++          <option name="id" value="a15" />
++          <option name="labId" value="google" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="A15" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
+           <option name="api" value="31" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="a51" />
+           <option name="id" value="a51" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy A51" />
+           <option name="screenDensity" value="420" />
+@@ -63,17 +81,31 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="akita" />
+           <option name="id" value="akita" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 8a" />
+           <option name="screenDensity" value="420" />
+           <option name="screenX" value="1080" />
+           <option name="screenY" value="2400" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="motorola" />
++          <option name="codename" value="arcfox" />
++          <option name="id" value="arcfox" />
++          <option name="labId" value="google" />
++          <option name="manufacturer" value="Motorola" />
++          <option name="name" value="razr plus 2024" />
++          <option name="screenDensity" value="360" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="1272" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
+           <option name="api" value="33" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="b0q" />
+           <option name="id" value="b0q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy S22 Ultra" />
+           <option name="screenDensity" value="600" />
+@@ -85,6 +117,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="bluejay" />
+           <option name="id" value="bluejay" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 6a" />
+           <option name="screenDensity" value="420" />
+@@ -96,6 +129,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="caiman" />
+           <option name="id" value="caiman" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 9 Pro" />
+           <option name="screenDensity" value="360" />
+@@ -106,7 +140,9 @@
+           <option name="api" value="34" />
+           <option name="brand" value="google" />
+           <option name="codename" value="comet" />
++          <option name="default" value="true" />
+           <option name="id" value="comet" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 9 Pro Fold" />
+           <option name="screenDensity" value="390" />
+@@ -118,6 +154,7 @@
+           <option name="brand" value="samsung" />
+           <option name="codename" value="crownqlteue" />
+           <option name="id" value="crownqlteue" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy Note9" />
+           <option name="screenDensity" value="420" />
+@@ -127,8 +164,21 @@
+         <PersistentDeviceSelectionData>
+           <option name="api" value="34" />
+           <option name="brand" value="samsung" />
++          <option name="codename" value="dm2q" />
++          <option name="id" value="dm2q" />
++          <option name="labId" value="google" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="S23 Plus" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
+           <option name="codename" value="dm3q" />
+           <option name="id" value="dm3q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy S23 Ultra" />
+           <option name="screenDensity" value="600" />
+@@ -139,7 +189,9 @@
+           <option name="api" value="34" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="e1q" />
++          <option name="default" value="true" />
+           <option name="id" value="e1q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy S24" />
+           <option name="screenDensity" value="480" />
+@@ -151,6 +203,7 @@
+           <option name="brand" value="samsung" />
+           <option name="codename" value="e3q" />
+           <option name="id" value="e3q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy S24 Ultra" />
+           <option name="screenDensity" value="450" />
+@@ -162,6 +215,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="eos" />
+           <option name="id" value="eos" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Eos" />
+           <option name="screenDensity" value="320" />
+@@ -173,6 +227,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="felix" />
+           <option name="id" value="felix" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel Fold" />
+           <option name="screenDensity" value="420" />
+@@ -184,6 +239,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="felix" />
+           <option name="id" value="felix" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel Fold" />
+           <option name="screenDensity" value="420" />
+@@ -195,6 +251,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="felix_camera" />
+           <option name="id" value="felix_camera" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel Fold (Camera-enabled)" />
+           <option name="screenDensity" value="420" />
+@@ -206,6 +263,7 @@
+           <option name="brand" value="motorola" />
+           <option name="codename" value="fogona" />
+           <option name="id" value="fogona" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Motorola" />
+           <option name="name" value="moto g play - 2024" />
+           <option name="screenDensity" value="280" />
+@@ -213,10 +271,24 @@
+           <option name="screenY" value="1600" />
+         </PersistentDeviceSelectionData>
+         <PersistentDeviceSelectionData>
++          <option name="api" value="34" />
++          <option name="brand" value="samsung" />
++          <option name="codename" value="g0q" />
++          <option name="id" value="g0q" />
++          <option name="labId" value="google" />
++          <option name="manufacturer" value="Samsung" />
++          <option name="name" value="SM-S906U1" />
++          <option name="screenDensity" value="450" />
++          <option name="screenX" value="1080" />
++          <option name="screenY" value="2340" />
++        </PersistentDeviceSelectionData>
++        <PersistentDeviceSelectionData>
+           <option name="api" value="33" />
+           <option name="brand" value="samsung" />
+           <option name="codename" value="gts8uwifi" />
++          <option name="formFactor" value="Tablet" />
+           <option name="id" value="gts8uwifi" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy Tab S8 Ultra" />
+           <option name="screenDensity" value="320" />
+@@ -228,6 +300,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="husky" />
+           <option name="id" value="husky" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 8 Pro" />
+           <option name="screenDensity" value="390" />
+@@ -239,6 +312,7 @@
+           <option name="brand" value="motorola" />
+           <option name="codename" value="java" />
+           <option name="id" value="java" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Motorola" />
+           <option name="name" value="G20" />
+           <option name="screenDensity" value="280" />
+@@ -250,6 +324,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="komodo" />
+           <option name="id" value="komodo" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 9 Pro XL" />
+           <option name="screenDensity" value="360" />
+@@ -261,6 +336,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="lynx" />
+           <option name="id" value="lynx" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 7a" />
+           <option name="screenDensity" value="420" />
+@@ -272,6 +348,7 @@
+           <option name="brand" value="motorola" />
+           <option name="codename" value="maui" />
+           <option name="id" value="maui" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Motorola" />
+           <option name="name" value="moto g play - 2023" />
+           <option name="screenDensity" value="280" />
+@@ -283,6 +360,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="oriole" />
+           <option name="id" value="oriole" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 6" />
+           <option name="screenDensity" value="420" />
+@@ -294,6 +372,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="panther" />
+           <option name="id" value="panther" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 7" />
+           <option name="screenDensity" value="420" />
+@@ -305,6 +384,7 @@
+           <option name="brand" value="samsung" />
+           <option name="codename" value="q5q" />
+           <option name="id" value="q5q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy Z Fold5" />
+           <option name="screenDensity" value="420" />
+@@ -316,6 +396,7 @@
+           <option name="brand" value="samsung" />
+           <option name="codename" value="q6q" />
+           <option name="id" value="q6q" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Samsung" />
+           <option name="name" value="Galaxy Z Fold6" />
+           <option name="screenDensity" value="420" />
+@@ -326,7 +407,9 @@
+           <option name="api" value="30" />
+           <option name="brand" value="google" />
+           <option name="codename" value="r11" />
++          <option name="formFactor" value="Wear OS" />
+           <option name="id" value="r11" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel Watch" />
+           <option name="screenDensity" value="320" />
+@@ -339,6 +422,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="redfin" />
+           <option name="id" value="redfin" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 5" />
+           <option name="screenDensity" value="440" />
+@@ -350,6 +434,7 @@
+           <option name="brand" value="google" />
+           <option name="codename" value="shiba" />
+           <option name="id" value="shiba" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 8" />
+           <option name="screenDensity" value="420" />
+@@ -360,7 +445,9 @@
+           <option name="api" value="33" />
+           <option name="brand" value="google" />
+           <option name="codename" value="tangorpro" />
++          <option name="formFactor" value="Tablet" />
+           <option name="id" value="tangorpro" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel Tablet" />
+           <option name="screenDensity" value="320" />
+@@ -371,7 +458,9 @@
+           <option name="api" value="34" />
+           <option name="brand" value="google" />
+           <option name="codename" value="tokay" />
++          <option name="default" value="true" />
+           <option name="id" value="tokay" />
++          <option name="labId" value="google" />
+           <option name="manufacturer" value="Google" />
+           <option name="name" value="Pixel 9" />
+           <option name="screenDensity" value="420" />
