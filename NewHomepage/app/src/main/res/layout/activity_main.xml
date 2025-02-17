@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#73ccd8"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -203,7 +203,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="115dp"
-                    android:background="@drawable/bg"
+                    android:background="@drawable/col_bg"
                     android:orientation="horizontal">
 
 
@@ -258,7 +258,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="115dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/bg"
+                    android:background="@drawable/col_bg"
                     android:orientation="horizontal">
 
 
@@ -313,7 +313,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="115dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/bg"
+                    android:background="@drawable/col_bg"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -367,7 +367,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="115dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/bg"
+                    android:background="@drawable/col_bg"
                     android:orientation="horizontal">
 
 
