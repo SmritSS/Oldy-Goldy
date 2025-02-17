@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
+    kotlin("plugin.serialization") version "1.9.0"
 }
 android {
     namespace = "com.example.myfinalloginpage"
@@ -45,6 +46,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation(platform("io.github.jan-tennert.supabase:bom:2.0.0-rc-1"))
+    implementation("io.github.jan-tennert.supabase:postgrest-kt")
+    implementation("io.github.jan-tennert.supabase:auth-kt")
+    implementation("io.github.jan-tennert.supabase:realtime-kt")
+
+    implementation("io.ktor:ktor-client-android:2.3.7")
+
+
 }
 
 
