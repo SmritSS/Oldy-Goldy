@@ -21,15 +21,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <RelativeLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/relativeLayout"
-                android:layout_width="429dp"
+                android:layout_width="match_parent"
                 android:layout_height="118dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintEnd_toEndOf="parent">
 
+                <!-- Title -->
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
@@ -38,41 +38,31 @@
                     android:text="@string/OG"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.01"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/editText"
                     app:layout_constraintVertical_bias="0.0" />
 
+                <!-- Subtitle -->
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginEnd="9dp"
-                    android:layout_marginBottom="0dp"
                     android:text="@string/Shri_Shanta_Niveshnam"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="9dp"/>
 
+                <!-- Search Bar -->
                 <EditText
                     android:id="@+id/editText"
-                    android:layout_width="386dp"
+                    android:layout_width="0dp"
                     android:layout_height="57dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="51dp"
-                    android:layout_marginEnd="23dp"
-                    android:layout_marginBottom="10dp"
-                    android:autofillHints="name"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/edittext_design"
                     android:backgroundTint="@color/material_dynamic_neutral90"
                     android:drawableStart="@drawable/search"
@@ -81,11 +71,16 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black" />
+                    android:textColorHint="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textView10"/>
 
-            </RelativeLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <ScrollView
             android:id="@+id/scrollView2"
@@ -423,100 +418,52 @@
 
     </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="845dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/tab_bg"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="parent">
-
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/home" />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="95dp"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/list" />
-
 
         <ImageView
             android:id="@+id/imageView11"
             android:layout_width="80dp"
             android:layout_height="60dp"
-            android:layout_marginStart="170dp"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/post" />
 
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginStart="275dp"
-            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/setting" />
 
         <ImageView
             android:id="@+id/imageView27"
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:layout_marginStart="350dp"
-            android:layout_marginTop="5dp"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/profile" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/home"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="110dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/List"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="195dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/Post"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="270dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/Settings"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="352dp"
-            android:layout_marginTop="50dp"
-            android:text="@string/Profile"
-            android:textColor="@color/black">
-        </TextView>
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
