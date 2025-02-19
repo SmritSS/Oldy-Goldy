@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
+   val supabase= createSupabaseClient{
+
+    }
     TextView btn;
     EditText inputEmail, inputPassword;
     Button btnLogin;
