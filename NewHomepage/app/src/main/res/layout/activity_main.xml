@@ -80,6 +80,44 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.436" />
+<<<<<<< HEAD
+=======
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="60dp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Suggestions"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+>>>>>>> 27f122cf7e99eb4a81d1b4e18fe09060a232a381
 
                 <HorizontalScrollView
                     android:id="@+id/horizontalScrollView"
@@ -88,7 +126,7 @@
                     android:layout_marginTop="14dp"
                     android:layout_weight="1"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editText">
+                    app:layout_constraintTop_toBottomOf="@+id/editText"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -151,6 +189,7 @@
                 </HorizontalScrollView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
+<<<<<<< HEAD
 
         <ScrollView
                 android:id="@+id/scrollView2"
@@ -159,6 +198,69 @@
                 android:paddingTop="0dp"
                 android:paddingBottom="60dp"
                 app:layout_constraintBaseline_toBottomOf="parent">
+=======
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/Advertisement">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/adver" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/advertise" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@drawable/col_bg"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="86dp"
+                android:layout_height="81dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/trunk" />
+>>>>>>> 27f122cf7e99eb4a81d1b4e18fe09060a232a381
 
             <LinearLayout
                 android:layout_width="match_parent"
