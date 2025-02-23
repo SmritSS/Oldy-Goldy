@@ -20,4 +20,5 @@
     <string name="Settings">Settings</string>
     <string name="Profile">Profile</string>
     <string name="Suggestions">Suggestions</string>
+    <string name="my_list">My List</string>
 </resources>
