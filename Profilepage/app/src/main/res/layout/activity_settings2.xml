@@ -17,7 +17,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20sp"
+            android:layout_margin="20dp"
             android:text="@string/Settings"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -28,33 +28,23 @@
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
-            <LinearLayout
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editTextText"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/editTextText"
-                    android:layout_width="match_parent"
-                    android:layout_height="50sp"
-                    android:layout_margin="10sp"
-                    android:background="@drawable/white_background"
-                    android:drawableStart="@drawable/outline_manage_search_24"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:hint="@string/search_for" />
-            </LinearLayout>
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_background"
+                android:drawableStart="@drawable/outline_manage_search_24"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/search_for" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -69,7 +59,6 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/imageView11"
@@ -92,22 +81,20 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <Switch
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/switch1"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
-                        android:switchMinWidth="50dp"
-                        android:theme="@style/notification_switch"
-                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+                        android:thumbTint="@color/black"
+                        android:trackTint="@color/white" />
 
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/imageView12"
@@ -130,20 +117,18 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <Switch
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/switch2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
-                        android:switchMinWidth="50dp"
-                        android:theme="@style/night_mode"
-                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+                        android:thumbTint="@color/black"
+                        android:trackTint="@color/white" />
 
                 </RelativeLayout>
 
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -267,7 +252,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/imageView17"
                         android:layout_width="50dp"
@@ -290,6 +274,8 @@
 
                 </RelativeLayout>
             </LinearLayout>
+
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -299,7 +285,7 @@
                 android:textSize="18sp"
                 android:layout_marginStart="20dp"
                 android:padding="15dp"
-                android:textAllCaps="true"/>
+                android:textAllCaps="true" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
